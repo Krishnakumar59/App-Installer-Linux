@@ -10,3 +10,5 @@ echo "|  UPDATED SUCCESSFULLY  |"
 echo "-------------------------"
 # installing tools
 sudo apt install git htop bpytop -y
+
+# tools to be installed

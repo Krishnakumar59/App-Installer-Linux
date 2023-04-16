@@ -84,6 +84,7 @@ sudo docker run hello-world
 # downloading docker desktop package
 wget https://desktop.docker.com/linux/main/amd64/docker-desktop-4.18.0-amd64.deb
 
+sudo apt install pass uidmap
 sudo dpkg -i ocker-desktop-4.18.0-amd64.deb
 # removing docker file to free up space  
 rm ocker-desktop-4.18.0-amd64.deb

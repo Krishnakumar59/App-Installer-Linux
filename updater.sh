@@ -20,11 +20,14 @@ sudo apt --fix-broken install -y
 wget https://zoom.us/client/5.14.0.1720/zoom_amd64.deb
 sudo dpkg -i zoom_amd64.deb
 sudo rm zoom_amd64.deb
+sudo apt --fix-broken install
 echo"Zoom Installed..."
 
 
 # Brave
-echo "Installing Brave Browser..."
+echo "-------------------------"
+echo "|  BRAVE INSTALLING     |"
+echo "-------------------------"
 sudo apt install curl
 
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
@@ -32,17 +35,19 @@ sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://b
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 
 sudo apt update
-
 sudo apt install brave-browser -y
 
-echo"Brave Installed Successfully..."
 
 # Vscode
 echo "Installing Vscode..."
 wget https://az764295.vo.msecnd.net/stable/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/code_1.77.0-1680085573_amd64.deb
 sudo dpkg -i code_1.77.0-1680085573_amd64.deb
 sudo rm code_1.77.0-1680085573_amd64.deb
-echo"Brave Installed Successfully..."
+
+echo "-------------------------"
+echo "|  VSCODE SUCCESSFULLY  |"
+echo "-------------------------"
+
 
 
 

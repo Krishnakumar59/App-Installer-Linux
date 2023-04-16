@@ -52,13 +52,7 @@ echo "----------------------------"
   
   sudo apt-get update
   
-  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-  
-  
-  
-  
-  
-  
+  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin  
   
   
  #creating docker group
@@ -66,19 +60,16 @@ echo "----------------------------"
  
  
 # fixing docker issue
-sudo systemctl status docker
+#sudo systemctl status docker
 #sudo systemctl start docker
   
-  ls -l /var/run/docker.sock
+  #ls -l /var/run/docker.sock
  sudo chown root:docker /var/run/docker.sock
+ 
  sudo usermod -aG docker $USER
   
- sudo systemctl status docker
- sudo systemctl restart docker
-  
-  
-  
-  
+ #sudo systemctl status docker
+ #sudo systemctl restart docker
   
   
 #  verifying docker is installed or not
@@ -91,9 +82,11 @@ echo "-------------------------------------------"
   
   #downloading docker desktop package
   
-  wget https://desktop.docker.com/linux/main/amd64/docker-desktop-4.18.0-amd64.deb?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-linux-amd64
+  wget https://desktop.docker.com/linux/main/amd64/docker-desktop-4.18.0-amd64.deb
   
+  sudo dpkg -i ocker-desktop-4.18.0-amd64.deb
   
+  rm ocker-desktop-4.18.0-amd64.deb
   #launcing docker desktop
   systemctl --user start docker-desktop
   

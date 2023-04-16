@@ -63,10 +63,11 @@ echo "----------------------------"
 #sudo systemctl status docker
 #sudo systemctl start docker
   
-  #ls -l /var/run/docker.sock
- sudo chown root:docker /var/run/docker.sock
+#ls -l /var/run/docker.sock
+# giving the required permission to communication
+sudo chown root:docker /var/run/docker.sock
  
- sudo usermod -aG docker $USER
+sudo usermod -aG docker $USER
   
  #sudo systemctl status docker
  #sudo systemctl restart docker
@@ -76,17 +77,17 @@ echo "----------------------------"
 echo "-------------------------------------------"
 echo "|  VERIFYING DOCKER IS INSTALLED OR NOT   |"
 echo "-------------------------------------------"
-  
-  sudo docker run hello-world
-  
-  
-  #downloading docker desktop package
-  
-  wget https://desktop.docker.com/linux/main/amd64/docker-desktop-4.18.0-amd64.deb
-  
-  sudo dpkg -i ocker-desktop-4.18.0-amd64.deb
-  
-  rm ocker-desktop-4.18.0-amd64.deb
-  #launcing docker desktop
-  systemctl --user start docker-desktop
+
+# running hello-world in docker to check whether it is installed correctly or not
+sudo docker run hello-world
+
+# downloading docker desktop package
+wget https://desktop.docker.com/linux/main/amd64/docker-desktop-4.18.0-amd64.deb
+
+sudo dpkg -i ocker-desktop-4.18.0-amd64.deb
+# removing docker file to free up space  
+rm ocker-desktop-4.18.0-amd64.deb
+
+# launcing docker desktop
+systemctl --user start docker-desktop
   

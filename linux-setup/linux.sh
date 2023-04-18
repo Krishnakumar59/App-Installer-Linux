@@ -3,7 +3,7 @@
 # -*- coding: utf-8 -*-
 
 echo "-------------------------"
-echo "| UPDATEING REPOSITORY  |"
+echo "| UPDATING REPOSITORY  |"
 echo "-------------------------"
 
 sudo apt update

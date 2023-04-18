@@ -22,7 +22,7 @@ sudo rm /usr/local/bin/com.docker.cli
 sudo apt purge docker-desktop
 
 echo "-------------------------"
-echo "| SETTING UP DOCEKR REPO |"
+echo "| SETTING UP DOCKER REPO |"
 echo "-------------------------"
 
 setting up docker repo

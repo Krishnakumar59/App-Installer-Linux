@@ -4,8 +4,10 @@
 sudo apt update -y
 sudo apt upgrade -y
 
-sudo apt install git nano -y
+sudo apt install git nano wget curl -y
 
+
+#########Docker and docker-desktop installation ############
 # Docker
 
 sudo apt install  ca-certificates  curl  gnupg  lsb-release
@@ -55,4 +57,34 @@ echo "----------------------------"
  #creating docker group
  sudo groupadd docker
 
+ sudo chown root:docker /var/run/docker.sock
  
+ sudo usermod -aG docker $USER
+
+ #  verifying docker is installed or not
+echo "-------------------------------------------"
+echo "|  VERIFYING DOCKER IS INSTALLED OR NOT   |"
+echo "-------------------------------------------"
+
+# running hello-world in docker to check whether it is installed correctly or not
+sudo docker run hello-world
+
+
+# installing docker-desktop
+# downloading docker desktop package
+wget https://desktop.docker.com/linux/main/amd64/docker-desktop-4.18.0-amd64.deb
+
+
+sudo apt install pass uidmap
+sudo dpkg -i docker-desktop-4.18.0-amd64.deb
+# removing docker file to free up space  
+rm docker-desktop-4.18.0-amd64.deb
+
+echo "----------------------------------------------"
+echo "|  DOCKER-DESKTOP IS INSTALLED  SUCCESSFULLY  |  |"
+echo "----------------------------------------------"
+
+
+
+
+#######################################

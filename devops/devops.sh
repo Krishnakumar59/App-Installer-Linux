@@ -25,7 +25,7 @@ echo "-------------------------"
 echo "| SETTING UP DOCKER REPO |"
 echo "-------------------------"
 
-setting up docker repo
+#setting up docker repo
 
 sudo apt-get update
 sudo apt-get install \
@@ -49,9 +49,9 @@ echo "| INSTALLING DOCKER ENGINE |"
 echo "----------------------------"
  # Installing docker engine
   
-  sudo apt-get update
+ sudo apt-get update
   
-  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin  
+ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin  
   
   
  #creating docker group
@@ -75,7 +75,8 @@ sudo docker run hello-world
 wget https://desktop.docker.com/linux/main/amd64/docker-desktop-4.18.0-amd64.deb
 
 
-sudo apt install pass uidmap
+sudo apt install pass uidmap qemu-system-x86 -y
+sudo apt --fix-broken install
 sudo dpkg -i docker-desktop-4.18.0-amd64.deb
 # removing docker file to free up space  
 rm docker-desktop-4.18.0-amd64.deb

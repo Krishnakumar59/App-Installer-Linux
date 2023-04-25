@@ -1,6 +1,8 @@
 sudo apt update && sudo apt upgrade -y
 
-sudo apt install -y wget gdebi git curl vlc neofetch bpytop plocate gnome-tweaks gnome-shell-extensions telegram-desktop
+sudo apt install -y python3 python3-pip python
+
+sudo apt install -y wget gdebi git curl vlc neofetch gnome-tweaks gnome-shell-extensions telegram-desktop
 
 # vscode
 wget https://az764295.vo.msecnd.net/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/code_1.77.3-1681292746_amd64.deb

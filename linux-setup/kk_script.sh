@@ -13,7 +13,7 @@ sudo rm code_1.77.3-1681292746_amd64.deb
 sudo apt install libu2f-udev -y
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
-sudo rm google-chrome-stable_current_amd64.deb
+# sudo rm google-chrome-stable_current_amd64.deb
 
 # Zoom 
 # zoom dependencies to be installed first
@@ -21,7 +21,8 @@ sudo apt install -y libglib2.0-0 libgstreamer-plugins-base0.10-0 libxcb-shape0 l
 wget https://cdn.zoom.us/prod/5.14.5.2430/zoom_amd64.deb
 sudo dpkg -i zoom_amd64.deb
 # remove zoom to free space
-sudo rm zoom_amd64.deb
+# sudo rm zoom_amd64.deb
 
 # kali
 sudo apt install -y whois nmap nikto john 
+sudo apt-get install gnome-boxes -y

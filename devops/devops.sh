@@ -86,6 +86,18 @@ echo "|  DOCKER-DESKTOP IS INSTALLED  SUCCESSFULLY  |  |"
 echo "----------------------------------------------"
 
 
+echo "----------------------------------------------"
+echo "|       MINIKUBE INSTALLTION IN-PROGRESS      |"
+echo "----------------------------------------------"
+
+
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+sudo install minikube-linux-amd64 /usr/local/bin/minikube
+
+minikube start
+kubectl get po -A
+alias kubectl="minikube kubectl --"
+minikube dashboard
 
 
 #######################################

@@ -30,6 +30,7 @@ sudo apt-get install gnome-boxes -y
 
 
 # privacy
+sudo apt install macchanger -y
 sudo apt update && sudo apt install tar tor curl python3 python3-scapy network-manager
 git clone https://github.com/omer-dogan/kali-whoami
 cd kali-whoami/

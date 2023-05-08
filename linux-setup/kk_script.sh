@@ -4,6 +4,8 @@ sudo apt install -y python3 python3-pip python
 
 sudo apt install -y wget gdebi git curl vlc neofetch gnome-tweaks gnome-shell-extensions telegram-desktop
 sudo apt install synaptic
+sudo apt-get install gnome-sushi
+
 
 # vscode
 wget https://az764295.vo.msecnd.net/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/code_1.77.3-1681292746_amd64.deb
@@ -32,6 +34,6 @@ sudo apt-get install gnome-boxes -y
 # privacy
 sudo apt install macchanger -y
 sudo apt update && sudo apt install tar tor curl python3 python3-scapy network-manager
-git clone https://github.com/omer-dogan/kali-whoami
-cd kali-whoami/
-sudo make install
+# git clone https://github.com/omer-dogan/kali-whoami
+# cd kali-whoami/
+# sudo make install

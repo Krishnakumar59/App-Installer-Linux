@@ -20,6 +20,7 @@ sudo apt install -y tar tor curl python3 python3-scapy network-manager
 sudo apt install synaptic ncdu -y
 sudo apt-get install gnome-sushi -y
 # Text-Extractor - OCR powered screen-capture tool to capture information instead of images 
+# Link: https://github.com/dynobo/normcap
 sudo apt install build-essential tesseract-ocr tesseract-ocr-eng libtesseract-dev libleptonica-dev wl-clipboard
 pip install normcap
 # you can set keyboard shortcut as of your choice

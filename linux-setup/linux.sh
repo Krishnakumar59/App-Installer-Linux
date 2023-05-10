@@ -29,6 +29,9 @@ sudo apt-get install gnome-sushi
 # it is used to view where storage used
 sudo apt install ncdu -y
 
+# Text-Extractor - OCR powered screen-capture tool to capture information instead of images 
+sudo apt install build-essential tesseract-ocr tesseract-ocr-eng libtesseract-dev libleptonica-dev wl-clipboard
+pip install normcap
 
 
 

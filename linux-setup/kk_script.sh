@@ -19,6 +19,9 @@ sudo apt install -y wget gdebi git curl vlc neofetch gnome-tweaks gnome-shell-ex
 sudo apt install -y tar tor curl python3 python3-scapy network-manager
 sudo apt install synaptic ncdu -y
 sudo apt-get install gnome-sushi -y
+# Text-Extractor - OCR powered screen-capture tool to capture information instead of images 
+sudo apt install build-essential tesseract-ocr tesseract-ocr-eng libtesseract-dev libleptonica-dev wl-clipboard
+pip install normcap
 
 
 # vscode

@@ -5,3 +5,4 @@
 * gnome-shushi - help to open any kinds of files with one spacebar 
 * bpytop - task-manager in terminal
 * ncdu - It is disk analyzer tool to show disk usages
+* normcap - OCR powered screen-capture tool to capture information instead of images similar to Powertoy text extractor

@@ -22,6 +22,7 @@ sudo apt-get install gnome-sushi -y
 # Text-Extractor - OCR powered screen-capture tool to capture information instead of images 
 sudo apt install build-essential tesseract-ocr tesseract-ocr-eng libtesseract-dev libleptonica-dev wl-clipboard
 pip install normcap
+# you can set keyboard shortcut as of your choice
 
 
 # vscode

@@ -9,8 +9,8 @@ espanso service register
 # Start espanso
 espanso start
 
-# if you want to add your custom shortcut 
-# --> /usr/.config/espanso/config
+# if you want to add your custom shortcut edit the fiile
+# --> /usr/.config/espanso/confige/spanso/match/base.yml
 
 # You can visit its store to download more script
 #https://hub.espanso.org/

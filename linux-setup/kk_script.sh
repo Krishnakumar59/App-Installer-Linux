@@ -6,6 +6,17 @@ sudo apt update && sudo apt upgrade -y
 # installing  programming stuffs
 # python
 sudo apt install -y python3 python3-pip python
+
+# Jetbrain Toolbox Installation
+wget https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.28.1.15219.tar.gz
+# Extraction
+tar -xf jetbrains-toolbox-1.28.1.15219.tar.gz
+# change directory
+cd jetbrains-toolbox-1.28.1.15219/
+chmod +x jetbrains-toolbox
+./jetbrains-toolbox
+
+
 # java
 sudo apt install openjdk-19-jdk openjdk-19-jre
 

@@ -1,9 +1,15 @@
-
-
 # python
+sudo apt-get install tar python3 python3-pip python-is-python3
 
-sudo apt install 
-sudo apt-get install python3 python3-pip python-is-python3
+# Jetbrain Toolbox Installation
+wget https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.28.1.15219.tar.gz
+# Extraction
+tar -xf jetbrains-toolbox-1.28.1.15219.tar.gz
+# change directory
+cd jetbrains-toolbox-1.28.1.15219/
+chmod +x jetbrains-toolbox
+./jetbrains-toolbox
+
 
 # java
 sudo apt install openjdk-19-jdk openjdk-19-jre

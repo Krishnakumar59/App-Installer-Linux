@@ -1,6 +1,6 @@
-## Docker installation script
-
-## Minikube installation script
-For more info [visit] : ( https://minikube.sigs.k8s.io/docs/start/ )
-
-
+This script will install following packages:
+- git nano wget curl
+- Docker
+- Ansible
+- Jenkins
+- all the required dependencies packages

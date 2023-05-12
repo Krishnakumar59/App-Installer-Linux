@@ -7,24 +7,10 @@ This is a Bash script that automates the installation of important daily use sof
 - Visual Studio Code
 - VLC Media Player
 - uGet Download Manager
-- LibreOffice Office Suite
-- Discord Chat Client
+- Chrome
+- Intellij Toolbox
 - OBS Studio for screen recording
-
-## Usage
-
-1. Download the `install.sh` file from this repository.
-2. Open a terminal and navigate to the directory where you downloaded the script.
-3. Run the following command to make the script executable:
-
-```bash
-chmod +x install.sh
-```
-4. Run the script as follows:
-```bash
-sudo ./install.sh
-```
-
+- many more
 
 ## Requirements
 - This script is only tested on Ubuntu-based systems.

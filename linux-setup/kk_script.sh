@@ -3,6 +3,11 @@
 # upgrading system
 sudo apt update && sudo apt upgrade -y
 
+# Customization
+sudo apt install gnome-tweaks -y
+sudo apt install gnome-shell-extensions -y
+sudo apt install gnome-shell-extension-manager -y
+
 # installing  programming stuffs
 # python
 sudo apt install -y python3 python3-pip python

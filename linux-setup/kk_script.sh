@@ -8,6 +8,12 @@ sudo apt install gnome-tweaks -y
 sudo apt install gnome-shell-extensions -y
 sudo apt install gnome-shell-extension-manager -y
 
+# kali
+sudo apt install -y whois nmap nikto john 
+sudo apt-get install gnome-boxes -y
+sudo apt install stacer
+sudo apt --fix-broken install
+
 # Andrpid Studio support
 sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
 
@@ -88,11 +94,6 @@ sudo apt --fix-broken install
 # remove zoom to free space
 # sudo rm zoom_amd64.deb
 
-# kali
-sudo apt install -y whois nmap nikto john 
-sudo apt-get install gnome-boxes -y
-sudo apt install stacer
-sudo apt --fix-broken install
 
 # --- need to fix
 # privacy

@@ -46,7 +46,7 @@ chmod +x jetbrains-toolbox
 
 
 # java
-sudo apt install openjdk-19-jdk openjdk-19-jre -y
+# sudo apt install openjdk-19-jdk openjdk-19-jre -y
 
 # nodejs
 sudo apt remove npm nodejs -y
@@ -91,6 +91,7 @@ sudo apt --fix-broken install
 # kali
 sudo apt install -y whois nmap nikto john 
 sudo apt-get install gnome-boxes -y
+sudo apt install stacer
 sudo apt --fix-broken install
 
 # --- need to fix

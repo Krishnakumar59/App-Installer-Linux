@@ -8,6 +8,9 @@ sudo apt install gnome-tweaks -y
 sudo apt install gnome-shell-extensions -y
 sudo apt install gnome-shell-extension-manager -y
 
+# Andrpid Studio support
+sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
+
 
 # installing jenkins
 sudo apt update

@@ -15,6 +15,7 @@ sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
 # installing jenkins
 sudo apt update
 sudo apt install -y fontconfig openjdk-11-jre
+sudo apt remove openjdk-19-jre-headless -y
 java -version
 
 curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \

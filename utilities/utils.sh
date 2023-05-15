@@ -1,4 +1,6 @@
-
+# flameshot - to take screenshot
+sudo apt install flameshot
+# to run -> /usr/bin/flameshot gui
 # linux wifi-hotspot
 sudo add-apt-repository ppa:lakinduakash/lwh
 sudo apt install linux-wifi-hotspot

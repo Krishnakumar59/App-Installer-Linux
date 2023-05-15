@@ -11,8 +11,12 @@ sudo apt install gnome-shell-extension-manager -y
 # kali
 sudo apt install -y whois nmap nikto john 
 sudo apt-get install gnome-boxes -y
-sudo apt install stacer
+sudo apt install stacer -y
 sudo apt --fix-broken install
+
+# flameshot - to take screenshot
+sudo apt install flameshot
+# to run -> /usr/bin/flameshot gui
 
 # Andrpid Studio support
 sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils

@@ -1,3 +1,4 @@
+sudo apt install libwxbase3.0-0v5 xclip libwxgtk3.0-gtk3-0v5 libnotify-bin libwxgtk3.0-gtk3-0v5
 # espanso installation
 wget https://github.com/federico-terzi/espanso/releases/download/v2.1.8/espanso-debian-x11-amd64.deb
 sudo dpkg -i espanso-debian-x11-amd64.deb

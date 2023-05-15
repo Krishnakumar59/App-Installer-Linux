@@ -8,6 +8,11 @@ sudo apt install gnome-tweaks -y
 sudo apt install gnome-shell-extensions -y
 sudo apt install gnome-shell-extension-manager -y
 
+# Support for AMD GPU Driver
+wget https://repo.radeon.com/amdgpu-install/22.40.5/ubuntu/focal/amdgpu-install_5.4.50405-1_all.deb
+sudo dpkg -i amdgpu-install_5.4.50405-1_all.deb
+rm amdgpu-install_5.4.50405-1_all.deb
+
 # kali
 sudo apt install -y whois nmap nikto john 
 sudo apt-get install gnome-boxes -y

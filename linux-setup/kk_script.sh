@@ -8,6 +8,9 @@ sudo apt install gnome-tweaks -y
 sudo apt install gnome-shell-extensions -y
 sudo apt install gnome-shell-extension-manager -y
 
+# Installing Normcap and its dependencies
+sudo apt install libfuse2 -y
+
 # Support for AMD GPU Driver
 wget https://repo.radeon.com/amdgpu-install/22.40.5/ubuntu/focal/amdgpu-install_5.4.50405-1_all.deb
 sudo dpkg -i amdgpu-install_5.4.50405-1_all.deb
@@ -20,11 +23,11 @@ sudo apt install stacer -y
 sudo apt --fix-broken install
 
 # flameshot - to take screenshot
-sudo apt install flameshot
+sudo apt install flameshot -y
 # to run -> /usr/bin/flameshot gui
 
 # Andrpid Studio support
-sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
+sudo apt-get install -y qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
 
 
 # installing jenkins
@@ -39,7 +42,7 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
   https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
   /etc/apt/sources.list.d/jenkins.list > /dev/null
 sudo apt-get update
-sudo apt-get install jenkins
+sudo apt-get install jenkins -y
 
 
 sudo systemctl enable jenkins

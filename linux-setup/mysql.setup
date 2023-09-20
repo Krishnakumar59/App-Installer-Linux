@@ -1,3 +1,10 @@
+# remove old files and setup first
+
+sudo systemctl stop mysql.service && sudo systemctl disable mysql.service
+sudo apt purge mysql*
+sudo apt autoremove
+
+
 sudo apt update
 sudo apt install mysql-server
 

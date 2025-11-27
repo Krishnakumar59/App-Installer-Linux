@@ -49,9 +49,15 @@ sudo systemctl enable jenkins
 
 sudo systemctl start jenkins
 
-# installing  programming stuffs
-# python
-sudo apt install -y python3 python3-pip
+# installing  programming stuffs and normcap ocr
+# Text-Extractor - OCR powered screen-capture tool to capture information instead of images 
+# Link: https://github.com/dynobo/normcap
+sudo apt install build-essential tesseract-ocr tesseract-ocr-eng libtesseract-dev libleptonica-dev wl-clipboard -y
+
+sudo apt install -y python3 python3-pip python-is-python3 python-venv 
+python -m venv venv
+source venv/bin/activate
+pip install normcap
 
 # Jetbrain Toolbox Installation
 wget https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.28.1.15219.tar.gz
@@ -76,9 +82,7 @@ sudo apt install -y wget gdebi git curl vlc neofetch gnome-tweaks gnome-shell-ex
 sudo apt install -y tar tor curl python3 python3-scapy network-manager
 sudo apt install synaptic ncdu -y
 sudo apt-get install gnome-sushi -y
-# Text-Extractor - OCR powered screen-capture tool to capture information instead of images 
-# Link: https://github.com/dynobo/normcap
-sudo apt install build-essential tesseract-ocr tesseract-ocr-eng libtesseract-dev libleptonica-dev wl-clipboard -y
+
 sudo apt install python3-pip -y
 pip install normcap
 # you can set keyboard shortcut as of your choice
